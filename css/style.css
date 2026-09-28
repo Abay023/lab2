@@ -68,8 +68,22 @@ main {
 .card elements and use justify-content: space-between; on .card-grid to align items and distribute free 
 space. */
 @media(min-width: 768px){
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     
-    
+    .logo {
+        margin-top: 10px;
+    }
+    .card-grid {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card {
+        flex-basis: 30%;
+    }
 
 
 }
