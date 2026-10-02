@@ -71,6 +71,7 @@ footer {
     color: #fff;
     font-size: 0.9rem;
 }
+
 /* here is the desktop setup */
 /* • Responsive Breakpoint (>= 768px): Add @media (min-width: 768px) { ... }.
 • Desktop Flex Alignment: Switch navigation and .card-grid to flex-direction: row;. Apply flex-basis: 30%; to 
