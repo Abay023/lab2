@@ -64,11 +64,12 @@ main {
     box-shadow: 2px 5px rgba(0, 0, 0);
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: #fff;
+    font-size: 0.9rem;
 }
 /* here is the desktop setup */
 /* • Responsive Breakpoint (>= 768px): Add @media (min-width: 768px) { ... }.
