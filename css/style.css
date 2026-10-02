@@ -56,11 +56,19 @@ main {
 }
 
 .card {
+    flex-basis: 100%;
     padding: 20px;
     background-color: #555;
     color: #fff;
     border-radius: 5px;
     box-shadow: 2px 5px rgba(0, 0, 0);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
 /* here is the desktop setup */
 /* • Responsive Breakpoint (>= 768px): Add @media (min-width: 768px) { ... }.
@@ -73,7 +81,7 @@ space. */
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .logo {
         margin-top: 10px;
     }
@@ -86,8 +94,13 @@ space. */
     }
 
 
+
+
 }
 
 /* final edits */
 /* • Interactive Styling: Add a subtle hover interaction on .card components (e.g., elevation box-shadow or 
 border transition) */
+.card:hover {
+  transform: scale(1.02); /* Scales up by 2% */
+}
