@@ -64,7 +64,7 @@ main {
     box-shadow: 2px 5px rgba(0, 0, 0);
 }
 
-footer {
+.footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
